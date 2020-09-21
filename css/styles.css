@@ -36,8 +36,9 @@ input[type='text'], input[type='password']{
     font-size: 14px;
     border: none;
     background: none;
-    border-radius: 0;
     border-bottom: 1px solid #979797;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 .sub_header {
     font-weight: 400;
