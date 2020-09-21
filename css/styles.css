@@ -32,7 +32,7 @@ p{
     font-size: 14px;
     color: var(--quaternary-color);
 }
-input[type='text'], input[type='password']{
+input[type='text'], input[type='password'], input[type='tel']{
     font-size: 14px;
     border: none;
     background: none;
@@ -110,6 +110,9 @@ input[type='text'], input[type='password']{
 .btn.primary {
 	background: var(--primary-color);
     color: #fff;
+}
+.btn a{
+    display: block;
 }
 .tag_list {
 	padding: initial;
