@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.29 57.29"><defs><style>.cls-1{fill:#c83b3f;}</style></defs><g id="레이어_2" data-name="레이어 2"><g id="레이어_1-2" data-name="레이어 1"><path class="cls-1" d="M39.53,24.35H33.15V18a4.5,4.5,0,0,0-9,0v6.39H17.76a4.5,4.5,0,0,0,0,9h6.39v6.38a4.5,4.5,0,0,0,9,0V33.35h6.38a4.5,4.5,0,0,0,0-9Z"/><path class="cls-1" d="M49.29,57.29H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0H49.29a8,8,0,0,1,8,8V49.29A8,8,0,0,1,49.29,57.29ZM9,48.29H48.29V9H9Z"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C83B3F;}
+</style>
+<g id="레이어_2_1_">
+	<g id="레이어_1-2">
+		<path class="st0" d="M60.9,45.7h-6.4v-6.4c0-2.5-2-4.5-4.5-4.5s-4.5,2-4.5,4.5v6.4h-6.4c-2.5,0-4.5,2-4.5,4.5c0,2.5,2,4.5,4.5,4.5
+			h6.4v6.4c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5v-6.4h6.4c2.5,0,4.5-2,4.5-4.5C65.4,47.7,63.4,45.7,60.9,45.7z"/>
+		<path class="st0" d="M70.6,78.6H29.4c-4.4,0-8-3.6-8-8V29.4c0-4.4,3.6-8,8-8h41.3c4.4,0,8,3.6,8,8v41.3
+			C78.6,75.1,75.1,78.6,70.6,78.6z M30.4,69.6h39.3V30.4H30.4V69.6z"/>
+	</g>
+</g>
+</svg>

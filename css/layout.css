@@ -3,6 +3,35 @@ body{
     padding: 0;
 }
 
+/*상단*/
+
+#header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+#header .icon{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#header .lt{
+    display: flex;
+    align-items: center;
+}
+#header .top_prev{
+    margin-right: 15px;
+    font-size: 24px;
+    color: #1e1e1e;
+}
+
 /*로그인 폼*/
 #loading {
     width: 100%;
@@ -98,6 +127,7 @@ body{
 /*회원가입*/
 .reg{
     padding: 0 15px;
+    box-sizing: border-box;
 }
 .reg .sub_header{
     margin-top: 1.5em;
@@ -106,20 +136,102 @@ body{
 .reg input{
     width: 100%;
 }
-
-#header {
+.reg .radiobox+.radiobox{
+	margin-left: 45px;
+}
+.reg .policy{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+.reg .policy a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.reg_result {
+	text-align: center;
+}
+.reg_result i{
+    font-size: 48px;
+}
+.reg_result2 {
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.reg_result2>div{
 	display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-    padding: 0 15px;
-    box-sizing: border-box;
+    align-items: baseline;
 }
-#header .icon{
-    width: 1.5em;
-    height: 1.5em;
+.phone_number{
+    position: relative;
+}
+.phone_number .caption{
+	position: absolute;
+    bottom: 0.5em;
+    right: 5px;
+    word-break: keep-all;
+}
+
+/*마이페이지*/
+#mypage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(31, 26, 52, 1);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 48px;
+    display: flex;
+}
+#mypage>div{
+    width: 100%;
+}
+#mypage a{
+	color: inherit;
+    text-decoration: inherit;
+}
+#mypage ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 48px;
+}
+#mypage h1, #mypage h2, #mypage p{
+    color: #fff;
+    margin: 0;
+}
+#mypage h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+#mypage hr{
+    margin: 48px 0;
+    border-width: 1px;
+    border-color: #979797;
+}
+.profile_img {
+	width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.profile_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icon_list a{
+    display: flex;
+    font-size: 14px;
+    line-height: 3em;
+    align-items: center;
+}
+.icon_list .icon{
+    font-size: 2em;
+    margin-right: 15px;
 }

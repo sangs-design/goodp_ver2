@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pictogram/marked</title>
+    <g id="pictogram/marked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="marked" transform="translate(25.000000, 20.000000)" fill="#C83B3F" fill-rule="nonzero">
+            <path d="M41.94,0 L7.49,0 C3.35567118,0.00550877325 0.00550877325,3.35567118 0,7.49 L0,52.33 C0.00367461697,55.3926981 1.87162618,58.1446008 4.71663674,59.2786414 C7.56164729,60.412682 10.8104634,59.7003577 12.92,57.48 L24.26,45.48 L36.64,57.9 C38.7831913,60.0381586 42.0027966,60.6759014 44.7992336,59.5161897 C47.5956706,58.3564779 49.419009,55.6273735 49.42,52.6 L49.42,7.49 C49.4145074,3.35956593 46.070423,0.0110108486 41.94,0 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

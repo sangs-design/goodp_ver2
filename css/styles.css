@@ -32,7 +32,10 @@ p{
     font-size: 14px;
     color: var(--quaternary-color);
 }
-input[type='text'], input[type='password'], input[type='tel']{
+h1.primary, h2.primary, h3.primary, p.primary{
+    color: var(--primary-color);
+}
+input[type='text'], input[type='password'], input[type='tel'], input[type='number'], input[type='email'], input[type='url'], input[type='search']{
     font-size: 14px;
     border: none;
     background: none;
@@ -106,12 +109,15 @@ input[type='text'], input[type='password'], input[type='tel']{
     line-height: 3em;
     border-radius: 8px;
     cursor: pointer;
+    text-align: center;
 }
 .btn.primary {
 	background: var(--primary-color);
     color: #fff;
 }
 .btn a{
+    color: inherit;
+    text-decoration: inherit;
     display: block;
 }
 .tag_list {
@@ -133,6 +139,8 @@ input[type='text'], input[type='password'], input[type='tel']{
     border-radius: 8px;
 }
 
+
+/*로그인*/
 #loading {
     background: var(--primary-color);
     color: #fff;
@@ -140,4 +148,26 @@ input[type='text'], input[type='password'], input[type='tel']{
 }
 #loading h1, #loading p{
 	color: #fff;
+}
+
+/*회원가입*/
+.phone_number .caption{
+    color: var(--primary-color);
+}
+.reg_result{
+    color: var(--primary-color);
+}
+.reg_result2 {
+	border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+/*마이페이지*/
+.icon_list, .icon_list{
+    color: #fff;
+    border-radius: 8px;
+}
+.icon_list:hover, .icon_list:active{
+    background: #fff;
+    color: var(--primary-color);
 }
