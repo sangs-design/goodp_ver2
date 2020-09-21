@@ -182,6 +182,7 @@ body{
     background: rgba(31, 26, 52, 1);
     width: 100vw;
     height: 100vh;
+    overflow-y: scroll;
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
